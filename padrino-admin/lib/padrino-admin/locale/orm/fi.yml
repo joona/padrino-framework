@@ -27,7 +27,7 @@ en:
   ohm:
     errors:
       messages:
-        format: "ei ole kerlvollinen"
+        format: "ei ole kelvollinen"
         not_present: "ei voi olla tyhjä"
         not_numeric: "ei ole numeerinen"
         not_url: "ei ole kelvollinen"
