@@ -1,0 +1,37 @@
+en:
+  activemodel: &activemodel
+    errors:
+      messages:
+        inclusion: "ei ole listalla"
+        exclusion: "on varattu"
+        invalid: "ei ole kelvollinen"
+        confirmation: "ei vastaa vahvistusta"
+        accepted: "täytyy olla hyväksytty"
+        empty: "ei voi olla tyhjä"
+        blank: "sisältö ei voi olla tyhjä"
+        too_long: "on liian pitkä (suurin sallittu pituus %{count} kirjainta)"
+        too_short: "on liian lyhyt (lyhin sallittu pituus %{count} kirjainta)"
+        wrong_length: "ei ole oikean pituinen (tulisi olla %{count} kirjainta)"
+        taken: "on jo varattu"
+        not_a_number: "ei ole numeerinen"
+        greater_than: "tulisi olla suurempi kuin %{count}"
+        greater_than_or_equal_to: "tulisi olla suurempi tai yhtäsuuri kuin %{count}"
+        equal_to: "tulisi olla yhtäsuuri kuin %{count}"
+        less_than: "tulisi olla pienempi kuin %{count}"
+        less_than_or_equal_to: "tulisi olla pienempi tai yhtäsuuri kuin %{count}"
+        odd: "tulisi olla pariton"
+        even: "tulisi olla parillinen"
+        record_invalid: "Tietojen vahvistaminen epäonnistui: %{errors}"
+        content_type: "tiedostomuoto ei ole tuettu"
+  activerecord: *activemodel
+  ohm:
+    errors:
+      messages:
+        format: "ei ole kerlvollinen"
+        not_present: "ei voi olla tyhjä"
+        not_numeric: "ei ole numeerinen"
+        not_url: "ei ole kelvollinen"
+        not_email: "ei ole kelvollinen"
+        not_valid: "ei ole listalla"
+        not_in_range: "ei ole listalla
+        not_decimal: "ei ole kelvollinen"
