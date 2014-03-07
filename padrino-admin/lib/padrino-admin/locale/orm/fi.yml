@@ -24,14 +24,14 @@ fi:
         record_invalid: "Tietojen vahvistaminen epäonnistui: %{errors}"
         content_type: "tiedostomuoto ei ole tuettu"
   activerecord: *activemodel
-  ohm:
-    errors:
-      messages:
-        format: "ei ole kelvollinen"
-        not_present: "ei voi olla tyhjä"
-        not_numeric: "ei ole numeerinen"
-        not_url: "ei ole kelvollinen"
-        not_email: "ei ole kelvollinen"
-        not_valid: "ei ole listalla"
-        not_in_range: "ei ole listalla
-        not_decimal: "ei ole kelvollinen"
+  # ohm:
+  #   errors:
+  #     messages:
+  #       format: "ei ole kelvollinen"
+  #       not_present: "ei voi olla tyhjä"
+  #       not_numeric: "ei ole numeerinen"
+  #       not_url: "ei ole kelvollinen"
+  #       not_email: "ei ole kelvollinen"
+  #       not_valid: "ei ole listalla"
+  #       not_in_range: "ei ole listalla
+  #       not_decimal: "ei ole kelvollinen"
