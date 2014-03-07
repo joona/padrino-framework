@@ -60,40 +60,40 @@ fi:
   # Used in distance_of_time_in_words(), distance_of_time_in_words_to_now(), time_ago_in_words().
   datetime:
     distance_in_words:
-      half_a_minute: "puoli minuuttia"
+      half_a_minute: "puoli minuuttia sitten"
       less_than_x_seconds:
-        one:   "alle sekunti"
-        other: "alle %{count} sekuntia"
+        one:   "alle sekunti sitten"
+        other: "alle %{count} sekuntia sitten"
       x_seconds:
-        one:   "1 sekunti"
-        other: "%{count} sekuntia"
+        one:   "1 sekunti sitten"
+        other: "%{count} sekuntia sitten"
       less_than_x_minutes:
-        one:   "alle minuutti"
-        other: "alle %{count} minuuttia"
+        one:   "alle minuutti sitten"
+        other: "alle %{count} minuuttia sitten"
       x_minutes:
-        one:   "1 minuutti"
-        other: "%{count} minuuttia"
+        one:   "1 minuutti sitten"
+        other: "%{count} minuuttia sitten"
       about_x_hours:
-        one:   "noin 1 tunti"
-        other: "noin %{count} tuntia"
+        one:   "noin 1 tunti sitten"
+        other: "noin %{count} tuntia sitten"
       x_days:
-        one:   "1 päivä"
-        other: "%{count} päivää"
+        one:   "1 päivä sitten"
+        other: "%{count} päivää sitten"
       about_x_months:
-        one:   "noin 1 kuukausi"
-        other: "noin %{count} kuukautta"
+        one:   "noin 1 kuukausi sitten"
+        other: "noin %{count} kuukautta sitten"
       x_months:
-        one:   "1 kuukausi"
-        other: "%{count} kuukautta"
+        one:   "1 kuukausi sitten"
+        other: "%{count} kuukautta sitten"
       about_x_years:
-        one:   "noin 1 vuosi"
-        other: "noin %{count} vuotta"
+        one:   "noin 1 vuosi sitten"
+        other: "noin %{count} vuotta sitten"
       over_x_years:
-        one:   "yli 1 vuosi"
-        other: "yli %{count} vuotta"
+        one:   "yli 1 vuosi sitten"
+        other: "yli %{count} vuotta sitten"
       almost_x_years:
-        one:   "lähes vuosi"
-        other: "lähes %{count} vuotta"
+        one:   "lähes vuosi sitten"
+        other: "lähes %{count} vuotta sitten"
   models:
     errors:
       template:
